@@ -25,7 +25,7 @@ function StayProductive() {
           >
             See how Fylo works
             <img
-              src="images/icon-arrow.svg"
+              src="images/icon-arrow-right.svg"
               alt="arrow"
               className="inline-block ml-2  animate-bounce hover:text-cyan-300 "
             />
