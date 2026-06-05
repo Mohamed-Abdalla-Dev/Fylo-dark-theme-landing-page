@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import logo from "../assets/images/logo.svg";
 
 function Header() {
   useEffect(() => {
@@ -17,7 +18,7 @@ function Header() {
       <div className="container flex justify-between items-center max-md:flex-col max-md:gap-6">
         <a href="">
           <img
-            src="images/logo.svg"
+            src={logo}
             alt="Fylo Logo"
             className="max-md:w-28"
           />

@@ -1,9 +1,12 @@
+import iconAccessAnywhere from "../assets/images/icon-access-anywhere.svg";
+import iconSecurity from "../assets/images/icon-security.svg";
+
 function Landing() {
   return (
     <section className=" relative z-10 py-32 max-md:py-36 bg-navy-800 ">
       <div className="container">
         <img
-          src="/public/images/illustration-intro.svg"
+          src={iconAccessAnywhere}
           alt="illustration intro"
           className="mx-auto "
         />
@@ -20,7 +23,7 @@ function Landing() {
         </button>
       </div>
       <img
-        src="/public/images/bg-curvy-desktop.svg"
+        src={iconSecurity}
         alt=""
         className="absolute bottom-0 left-0 right-0 z-[-2] mx-auto"
       />

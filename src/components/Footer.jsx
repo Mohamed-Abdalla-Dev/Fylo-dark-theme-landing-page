@@ -1,4 +1,8 @@
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import locationIcon from "../assets/images/icon-location.svg";
+import phoneIcon from "../assets/images/icon-phone.svg";
+import emailIcon from "../assets/images/icon-email.svg";
+import logo from "../assets/images/logo.svg";
 
 function Footer() {
   return (
@@ -6,7 +10,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-10 flex justify-start max-lg:justify-center">
           <img
-            src="images/logo.svg"
+            src={logo}
             alt="Fylo Logo"
             className="h-8 w-auto"
           />
@@ -14,7 +18,7 @@ function Footer() {
         <div className="grid items-start grid-cols-4 max-lg:grid-cols-1 xl:grid-cols-4 gap-12 md:gap-8 text-sm">
           <div className="flex items-start gap-4 max-lg:flex-col">
             <img
-              src="images/icon-location.svg"
+              src={locationIcon}
               alt="Location Icon"
               className="mt-1 max-lg:mx-auto"
             />
@@ -25,11 +29,11 @@ function Footer() {
           </div>
           <div className="flex flex-col gap-4 mx-auto">
             <div className="flex items-center gap-4 hover:text-white transition-colors cursor-pointer">
-              <img src="images/icon-phone.svg" alt="Phone Icon" />
+              <img src={phoneIcon} alt="Phone Icon" />
               <span>+1-543-123-4567</span>
             </div>
             <div className="flex items-center gap-4 hover:text-white transition-colors cursor-pointer">
-              <img src="images/icon-email.svg" alt="Email Icon" />
+              <img src={emailIcon} alt="Email Icon" />
               <span>example@fylo.com</span>
             </div>
           </div>
