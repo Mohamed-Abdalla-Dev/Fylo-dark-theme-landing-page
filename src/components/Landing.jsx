@@ -1,5 +1,3 @@
-
-
 function Landing() {
   return (
     <section className=" relative z-10 py-32 max-md:py-36 bg-navy-800 ">

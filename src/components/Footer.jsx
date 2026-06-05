@@ -1,12 +1,15 @@
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
-
 function Footer() {
   return (
     <footer className="bg-navy-950 text-gray-300 relative pt-40 pb-12 px-6 md:px-12">
       <div className="max-w-7xl mx-auto">
         <div className="mb-10 flex justify-start max-lg:justify-center">
-          <img src="/Fylo-dark-theme-landing-page/images/logo.svg" alt="Fylo Logo" className="h-8 w-auto" />
+          <img
+            src="/Fylo-dark-theme-landing-page/images/logo.svg"
+            alt="Fylo Logo"
+            className="h-8 w-auto"
+          />
         </div>
         <div className="grid items-start grid-cols-4 max-lg:grid-cols-1 xl:grid-cols-4 gap-12 md:gap-8 text-sm">
           <div className="flex items-start gap-4 max-lg:flex-col">
@@ -22,11 +25,17 @@ function Footer() {
           </div>
           <div className="flex flex-col gap-4 mx-auto">
             <div className="flex items-center gap-4 hover:text-white transition-colors cursor-pointer">
-              <img src="/Fylo-dark-theme-landing-page/images/icon-phone.svg" alt="Phone Icon" />
+              <img
+                src="/Fylo-dark-theme-landing-page/images/icon-phone.svg"
+                alt="Phone Icon"
+              />
               <span>+1-543-123-4567</span>
             </div>
             <div className="flex items-center gap-4 hover:text-white transition-colors cursor-pointer">
-              <img src="/Fylo-dark-theme-landing-page/images/icon-email.svg" alt="Email Icon" />
+              <img
+                src="/Fylo-dark-theme-landing-page/images/icon-email.svg"
+                alt="Email Icon"
+              />
               <span>example@fylo.com</span>
             </div>
           </div>

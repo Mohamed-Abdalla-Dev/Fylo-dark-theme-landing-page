@@ -1,5 +1,3 @@
-
-
 function StayProductive() {
   return (
     <section className="py-16 ">
