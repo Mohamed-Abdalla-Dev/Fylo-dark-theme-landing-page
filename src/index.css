@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import url(https://fonts.google.com/specimen/Raleway);
+
+@theme {
+  /* --- Primary (Navy Palette) --- */
+  --color-navy-800: hsl(219, 30%, 18%); /* Testimonials background */
+  --color-navy-850: hsl(217, 28%, 15%); /* Intro & Email signup background */
+  --color-navy-900: hsl(218, 28%, 13%); /* Main background */
+  --color-navy-950: hsl(216, 53%, 9%); /* Footer background */
+
+  /* --- Accent & Status --- */
+  --color-teal-200: hsl(176, 68%, 64%); /* CTA Gradient start */
+  --color-cyan-500: hsl(198, 60%, 50%); /* CTA Gradient end */
+  --color-red-custom: hsl(0, 100%, 63%); /* Error state */
+
+  /* --- Neutral --- */
+  --color-white-custom: hsl(0, 0%, 100%); /* Pure White */
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #181f2b;
+}
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
