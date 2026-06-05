@@ -17,7 +17,7 @@ function Header() {
       <div className="container flex justify-between items-center max-md:flex-col max-md:gap-6">
         <a href="/">
           <img
-            src="/images/logo.svg"
+            src="images/logo.svg"
             alt="Fylo Logo"
             className="max-md:w-28"
           />
@@ -27,7 +27,7 @@ function Header() {
             {links.map((link) => (
               <li key={link}>
                 <a
-                  href="/"
+                  href="images/logo.svg"
                   className="text-white-custom opacity-80 hover:opacity-100 hover:underline  transition-all duration-300"
                 >
                   {link}

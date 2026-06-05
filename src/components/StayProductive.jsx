@@ -3,7 +3,7 @@ function StayProductive() {
     <section className="py-16 ">
       <div className="container flex justify-center items-center gap-12 max-lg:flex-col max-lg:text-center">
         <img
-          src="/images/illustration-stay-productive.png"
+          src="images/illustration-stay-productive.png"
           alt="Stay Productive"
           className="mb-10 mx-auto flex-1"
         />
@@ -25,7 +25,7 @@ function StayProductive() {
           >
             See how Fylo works
             <img
-              src="/images/icon-arrow.svg"
+              src="images/icon-arrow.svg"
               alt="arrow"
               className="inline-block ml-2  animate-bounce hover:text-cyan-300 "
             />
