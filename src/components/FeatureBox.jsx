@@ -2,7 +2,7 @@ function FeatureBox({ data }) {
   return (
     <div className="text-center my-6">
       <img
-        src={`images/${data.icon}`}
+        src={data.icon}
         alt={data.title}
         className="mx-auto"
       />

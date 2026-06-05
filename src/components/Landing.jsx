@@ -3,7 +3,7 @@ function Landing() {
     <section className=" relative z-10 py-32 max-md:py-36 bg-navy-800 ">
       <div className="container">
         <img
-          src="public/images/illustration-intro.png"
+          src="images/illustration-intro.png"
           alt="illustration intro"
           className="mx-auto "
         />
