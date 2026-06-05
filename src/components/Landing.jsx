@@ -3,7 +3,7 @@ function Landing() {
     <section className=" relative z-10 py-32 max-md:py-36 bg-navy-800 ">
       <div className="container">
         <img
-          src="/Fylo-dark-theme-landing-page/images/illustration-intro.svg"
+          src="/public/images/illustration-intro.svg"
           alt="illustration intro"
           className="mx-auto "
         />
@@ -20,7 +20,7 @@ function Landing() {
         </button>
       </div>
       <img
-        src="images/bg-curvy-desktop.svg"
+        src="/public/images/bg-curvy-desktop.svg"
         alt=""
         className="absolute bottom-0 left-0 right-0 z-[-2] mx-auto"
       />
