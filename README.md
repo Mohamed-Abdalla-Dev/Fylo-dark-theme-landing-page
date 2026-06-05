@@ -5,7 +5,7 @@ An atmospheric, responsive dark-theme landing page built as a portfolio project 
 ---
 
 ## 📸 Preview
-![preview](/Fylo-dark-theme-landing-page/images/img.webp)
+![preview](/public/images/img.webp)
 
 ## 🛠️ Tech Stack & Features
 
