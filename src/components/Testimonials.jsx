@@ -1,8 +1,6 @@
 import TestimonialsBox from "./TestimonialsBox";
 import { useState } from "react";
 
-
-
 function Testimonials() {
   const [testimonials] = useState([
     {

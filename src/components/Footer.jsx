@@ -9,11 +9,7 @@ function Footer() {
     <footer className="bg-navy-950 text-gray-300 relative pt-40 pb-12 px-6 md:px-12">
       <div className="max-w-7xl mx-auto">
         <div className="mb-10 flex justify-start max-lg:justify-center">
-          <img
-            src={logo}
-            alt="Fylo Logo"
-            className="h-8 w-auto"
-          />
+          <img src={logo} alt="Fylo Logo" className="h-8 w-auto" />
         </div>
         <div className="grid items-start grid-cols-4 max-lg:grid-cols-1 xl:grid-cols-4 gap-12 md:gap-8 text-sm">
           <div className="flex items-start gap-4 max-lg:flex-col">
