@@ -20,7 +20,7 @@ function Landing() {
         </button>
       </div>
       <img
-        src="public/images/bg-curvy-desktop.svg"
+        src="images/bg-curvy-desktop.svg"
         alt=""
         className="absolute bottom-0 left-0 right-0 z-[-2] mx-auto"
       />
