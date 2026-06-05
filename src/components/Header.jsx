@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import logo from "./assets/images/logo.svg";
 
 function Header() {
   useEffect(() => {
@@ -18,7 +17,7 @@ function Header() {
       <div className="container flex justify-between items-center max-md:flex-col max-md:gap-6">
         <a href="">
           <img
-            src={logo}
+            src="/Fylo-dark-theme-landing-page/images/logo.svg"
             alt="Fylo Logo"
             className="max-md:w-28"
           />
@@ -28,7 +27,7 @@ function Header() {
             {links.map((link) => (
               <li key={link}>
                 <a
-                  href={`#${link.toLowerCase().replace(" ", "")}`} 
+                  href={`#${link.toLowerCase().replace(" ", "")}`}
                   className="text-white-custom opacity-80 hover:opacity-100 hover:underline  transition-all duration-300"
                 >
                   {link}

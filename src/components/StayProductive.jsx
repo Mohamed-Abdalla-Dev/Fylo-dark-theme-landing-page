@@ -1,12 +1,11 @@
-import illustrationStayProductive from "./assets/images/illustration-stay-productive.png";
-import iconArrowRight from "./assets/images/icon-arrow-right.svg";
+
 
 function StayProductive() {
   return (
     <section className="py-16 ">
       <div className="container flex justify-center items-center gap-12 max-lg:flex-col max-lg:text-center">
         <img
-          src={illustrationStayProductive}
+          src="/Fylo-dark-theme-landing-page/images/illustration-stay-productive.png"
           alt="Stay Productive"
           className="mb-10 mx-auto flex-1"
         />
@@ -28,7 +27,7 @@ function StayProductive() {
           >
             See how Fylo works
             <img
-              src={iconArrowRight}
+              src="/Fylo-dark-theme-landing-page/images/icon-arrow.svg"
               alt="arrow"
               className="inline-block ml-2  animate-bounce hover:text-cyan-300 "
             />

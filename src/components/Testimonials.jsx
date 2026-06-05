@@ -1,9 +1,5 @@
 import TestimonialsBox from "./TestimonialsBox";
 import { useState } from "react";
-import bgQuotes from "./assets/images/bg-quotes.png";
-import profile1 from "./assets/images/profile-1.jpg";
-import profile2 from "./assets/images/profile-2.jpg";
-import profile3 from "./assets/images/profile-3.jpg";
 
 
 
@@ -13,21 +9,21 @@ function Testimonials() {
       description:
         "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
       name: "Satish Patel",
-      image: profile1,
+      image: "/Fylo-dark-theme-landing-page/images/profile-1.jpg",
       job: "ceo, Company",
     },
     {
       description:
         "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
       name: "Bruce McKenzie",
-      image: profile2,
+      image: "/Fylo-dark-theme-landing-page/images/profile-2.jpg",
       job: "cto, Another Company",
     },
     {
       description:
         "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
       name: "Iva Boyd",
-      image: profile3,
+      image: "/Fylo-dark-theme-landing-page/images/profile-3.jpg",
       job: "marketing director",
     },
   ]);
@@ -35,7 +31,7 @@ function Testimonials() {
     <section className="py-16 relative pb-40">
       <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-center">
         <img
-          src={bgQuotes}
+          src="/Fylo-dark-theme-landing-page/images/bg-quotes.png"
           alt=""
           className="absolute top-4 left-4 z-[-2]"
         />

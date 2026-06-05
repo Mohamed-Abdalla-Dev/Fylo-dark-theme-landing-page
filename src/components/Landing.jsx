@@ -1,12 +1,11 @@
-import iconAccessAnywhere from "./assets/images/icon-access-anywhere.svg";
-import iconSecurity from "./assets/images/icon-security.svg";
+
 
 function Landing() {
   return (
     <section className=" relative z-10 py-32 max-md:py-36 bg-navy-800 ">
       <div className="container">
         <img
-          src={iconAccessAnywhere}
+          src="/Fylo-dark-theme-landing-page/images/illustration-intro.png"
           alt="illustration intro"
           className="mx-auto "
         />
@@ -23,7 +22,7 @@ function Landing() {
         </button>
       </div>
       <img
-        src={iconSecurity}
+        src="/Fylo-dark-theme-landing-page/images/bg-curvy-desktop.svg"
         alt=""
         className="absolute bottom-0 left-0 right-0 z-[-2] mx-auto"
       />
