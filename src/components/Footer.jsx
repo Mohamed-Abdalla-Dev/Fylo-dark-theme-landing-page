@@ -1,8 +1,8 @@
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
-import locationIcon from "../assets/images/icon-location.svg";
-import phoneIcon from "../assets/images/icon-phone.svg";
-import emailIcon from "../assets/images/icon-email.svg";
-import logo from "../assets/images/logo.svg";
+import locationIcon from "./assets/images/icon-location.svg";
+import phoneIcon from "./assets/images/icon-phone.svg";
+import emailIcon from "./assets/images/icon-email.svg";
+import logo from "./assets/images/logo.svg";
 
 function Footer() {
   return (

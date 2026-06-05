@@ -1,9 +1,9 @@
 import TestimonialsBox from "./TestimonialsBox";
 import { useState } from "react";
-import bgQuotes from "../assets/images/bg-quotes.png";
-import profile1 from "../assets/images/profile-1.jpg";
-import profile2 from "../assets/images/profile-2.jpg";
-import profile3 from "../assets/images/profile-3.jpg";
+import bgQuotes from "./assets/images/bg-quotes.png";
+import profile1 from "./assets/images/profile-1.jpg";
+import profile2 from "./assets/images/profile-2.jpg";
+import profile3 from "./assets/images/profile-3.jpg";
 
 
 

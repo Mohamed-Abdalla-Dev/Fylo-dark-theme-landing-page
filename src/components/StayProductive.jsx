@@ -1,6 +1,5 @@
-import illustrationStayProductive from "../assets/images/illustration-stay-productive.png";
-import iconArrowRight from "../assets/images/icon-arrow-right.svg";
-
+import illustrationStayProductive from "./assets/images/illustration-stay-productive.png";
+import iconArrowRight from "./assets/images/icon-arrow-right.svg";
 
 function StayProductive() {
   return (

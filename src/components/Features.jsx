@@ -1,9 +1,9 @@
 import { useState } from "react";
 import FeatureBox from "./FeatureBox";
-import iconAccessAnywhere from "../assets/images/icon-access-anywhere.svg";
-import iconSecurity from "../assets/images/icon-security.svg";
-import iconCollaboration from "../assets/images/icon-collaboration.svg";
-import iconAnyFile from "../assets/images/icon-any-file.svg";
+import iconAccessAnywhere from "./assets/images/icon-access-anywhere.svg";
+import iconSecurity from "./assets/images/icon-security.svg";
+import iconCollaboration from "./assets/images/icon-collaboration.svg";
+import iconAnyFile from "./assets/images/icon-any-file.svg";
 
 function Features() {
   const [items] = useState([

@@ -1,5 +1,5 @@
-import iconAccessAnywhere from "../assets/images/icon-access-anywhere.svg";
-import iconSecurity from "../assets/images/icon-security.svg";
+import iconAccessAnywhere from "./assets/images/icon-access-anywhere.svg";
+import iconSecurity from "./assets/images/icon-security.svg";
 
 function Landing() {
   return (
