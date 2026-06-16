@@ -17,7 +17,7 @@ function Header() {
       <div className="container flex justify-between items-center max-md:flex-col max-md:gap-6">
         <a href="">
           <img
-            src="/Fylo-dark-theme-landing-page/images/logo.svg"
+            src="images/logo.svg"
             alt="Fylo Logo"
             className="max-md:w-28"
           />

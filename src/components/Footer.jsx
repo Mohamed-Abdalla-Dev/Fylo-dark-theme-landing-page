@@ -6,7 +6,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-10 flex justify-start max-lg:justify-center">
           <img
-            src="/Fylo-dark-theme-landing-page/images/logo.svg"
+            src="images/logo.svg"
             alt="Fylo Logo"
             className="h-8 w-auto"
           />
@@ -14,7 +14,7 @@ function Footer() {
         <div className="grid items-start grid-cols-4 max-lg:grid-cols-1 xl:grid-cols-4 gap-12 md:gap-8 text-sm">
           <div className="flex items-start gap-4 max-lg:flex-col">
             <img
-              src="/Fylo-dark-theme-landing-page/images/icon-location.svg"
+              src="images/icon-location.svg"
               alt="Location Icon"
               className="mt-1 max-lg:mx-auto"
             />
@@ -26,14 +26,14 @@ function Footer() {
           <div className="flex flex-col gap-4 mx-auto">
             <div className="flex items-center gap-4 hover:text-white transition-colors cursor-pointer">
               <img
-                src="/Fylo-dark-theme-landing-page/images/icon-phone.svg"
+                src="images/icon-phone.svg"
                 alt="Phone Icon"
               />
               <span>+1-543-123-4567</span>
             </div>
             <div className="flex items-center gap-4 hover:text-white transition-colors cursor-pointer">
               <img
-                src="/Fylo-dark-theme-landing-page/images/icon-email.svg"
+                src="images/icon-email.svg"
                 alt="Email Icon"
               />
               <span>example@fylo.com</span>
