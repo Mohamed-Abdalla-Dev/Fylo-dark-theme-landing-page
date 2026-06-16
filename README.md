@@ -5,7 +5,7 @@ An atmospheric, responsive dark-theme landing page built as a portfolio project 
 ---
 
 ## 📸 Preview
-![preview](/public/images/img.webp)
+![preview](/public//images/img.webp)
 
 ## 🛠️ Tech Stack & Features
 
@@ -62,4 +62,4 @@ fylo/
 
 ## 🚀 Live Demo & Preview
 
-- **Live Demo Link:**(https://mohamed-abdalla-dev.github.io/Fylo-dark-theme-landing-page/)
+- **Live Demo Link:**(fylo-dark-theme-landing-page-three-drab.vercel.app)
