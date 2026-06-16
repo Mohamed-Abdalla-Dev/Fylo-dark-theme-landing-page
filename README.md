@@ -62,4 +62,4 @@ fylo/
 
 ## 🚀 Live Demo & Preview
 
-🔗 fylo-dark-theme-landing-page-three-drab.vercel.app
+🔗 https://fylo-dark-theme-landing-page-three-drab.vercel.app
